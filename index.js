@@ -187,11 +187,43 @@
             //  let user= outer()
             // console.log(user)
 
-            function outer(user,LastName){
-                this.userName=user
-                this.userLastName=LastName
-            }
-             let user = new outer('hello','hii')
+            // function outer(user,LastName){
+            //     this.userName=user
+            //     this.userLastName=LastName
+            // }
+            //  let user = new outer('hello','hii')
              
-            console.log(user)
+            // console.log(user)
 
+
+
+
+            ///         adte 20-1-24.....
+
+
+             /// sycronous and asycronous
+
+    // console.log('one')
+    // setTimeout(()=>{
+    //   console.log('three')
+    // })
+    // setTimeout(()=>{
+    //   console.log('four')
+    // },2000)
+    // console.log('two')
+
+
+                            /// dom in javascript
+
+    // console.log(Document,'html')
+     //let h2= document.getElementById('one')
+    //  let h2=document.getElementsByClassName('two')
+    let arr= document.querySelectorAll('h2')
+    for( let item of arr )
+    {
+      item.style.color='red'
+    }
+    //  h2.innerText='hii good'
+    //console.log(h2)
+    //h2.style.color='red'
+    // console.log(h2)
